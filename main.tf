@@ -37,7 +37,7 @@ locals {
 
   tags_context = {
     # For AWS we need `Name` to be disambiguated sine it has a special meaning
-    name        = local.id
+//    name        = local.id
     namespace   = local.namespace
     environment = local.environment
     stage       = local.stage
